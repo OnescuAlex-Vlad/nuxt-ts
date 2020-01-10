@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://192.168.100.18:3000';
 
 export const USER_INFO_URL = BASE_URL + '/userinfo';
 export const EVENTS_URL = BASE_URL + '/events';
